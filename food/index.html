@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main class="conatiner">
+        <header class="main-heading">
+            <h1>Online Food ordering System</h1>
+        </header>
+        <h4></h4>
+
+        <section>
+
+            <article>
+                <button class="browse-menu">Browse Menu</button>
+            </article>
+
+            <article class="menu"></article>
+
+            <section>
+                <h2 class="sub-heading">Place Order</h2>
+                <p>Select Items</p>
+                <form>
+                    <!-- <textarea class="select-items"></textarea> -->
+
+                    <textarea class="select-items"></textarea>
+                </form>
+                <p>Delivery Address
+                </p>
+                <form>
+                    <textarea class="delivery-address"></textarea>
+                </form>
+                <button class="btn-place-order">Place Order</button>
+            </section>
+
+            <section class="order-list">
+                <h2 class="order-heading">Order List</h2>
+                <article class="order-list"></article>
+            </section>
+
+            <section class="order-status">
+                <h2 class="sub-heading">Order Status</h2>
+                <form>
+                    <p class="orderId">Enter Order ID:</p>
+                    <input type="text" class="order-id">
+                </form>
+                <button class="btn-order-status">Track Order Status</button>
+            </section>
+        </section>
+
+
+        <section class="owner">
+            <h2 class="sub-heading">For Owner Use</h2>
+            <article>
+                <p>Enter Owner User Id</p>
+                <input type="text" class="owner-id">
+                <button class="edit-menu">Edit Menu</button>
+                <button class="add-item">Add Item In Menu</button>
+                <button class="remove-item">Remove Item from Menu</button>
+            </article>
+
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
