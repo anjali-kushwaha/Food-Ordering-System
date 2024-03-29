@@ -7,12 +7,12 @@ This Food Ordering System is a simple web application designed to help the Owner
 
 
 ## Features
-## for customers
-*Browse Menu: shows Name, Category, Price, Description		
+## for owner
+* Browse Menu: shows Name, Category, Price, Description		
 * Add Menu: Users can add a menu with Name, Category, Price, Description
 * Edit Tasks: The existing menu can be edited to update any details.
 * Delete Task: dishes can be removed from the list.
-*check status: it allows the owner to check the status of the order of food 
+* check status: it allows the owner to check the status of the order of food 
 ## for customers *placed the order: allows the customer to order from the menu 
 
 ## Technologies Used
